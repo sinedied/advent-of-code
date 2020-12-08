@@ -4,8 +4,10 @@ mkdir day$n;
 echo "const fs = require('fs');\
 const input = fs.readFileSync(__dirname + '/input.txt', 'utf-8');\
 const entries = input.split('\\\\n');\
-\
+\n\
 // part 1\
+\n\
+// part 2\
 " > day$n/code.js
 curl https://adventofcode.com/2020/day/$n/input -o day$n/input.txt -H "$cookie"
 open https://adventofcode.com/2020/day/$n
