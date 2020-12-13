@@ -3,7 +3,7 @@ n=$1
 mkdir day$n;
 echo "const fs = require('fs');\n\
 const input = fs.readFileSync(__dirname + '/input.txt', 'utf-8');\n\
-const entries = input.split('\\\\n').filter(e => e);;\n\
+const entries = input.split('\\\\n').filter(e => e);\n\
 \n\
 // part 1\n\
 \n\n\
